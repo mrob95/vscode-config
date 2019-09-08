@@ -11,5 +11,13 @@
     "window.menuBarVisibility": "default",
     "breadcrumbs.enabled": false,
     "editor.tabCompletion": "on",
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+
+    // Controls if quick suggestions should show up while typing
+    "editor.quickSuggestions": false,
+
+    // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggestOnTriggerCharacters": false
 }
