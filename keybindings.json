@@ -89,5 +89,9 @@
     {
         "key": "ctrl+k ctrl+shift+right",
         "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
+        "key": "shift+alt+oem_1",
+        "command": "findJump.activateWithSelection"
     }
 ]

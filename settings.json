@@ -15,7 +15,7 @@
 
     // The number of spaces a tab is equal to. This setting is overridden
     // based on the file contents when `editor.detectIndentation` is true.
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
 
     // Insert spaces when pressing Tab. This setting is overriden
     // based on the file contents when `editor.detectIndentation` is true.
@@ -27,11 +27,11 @@
     "editor.detectIndentation": true,
 
     // Controls if quick suggestions should show up while typing
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": true,
 
     // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.suggestOnTriggerCharacters": false,
+    "editor.suggestOnTriggerCharacters": true,
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "newUntitledFile",
     "customizeUI.stylesheet": {
@@ -79,5 +79,6 @@
     "python.analysis.memory.keepLibraryLocalVariables": true,
     "window.title": "${rootName}${separator}${activeEditorMedium}",
     "C_Cpp.updateChannel": "Insiders",
-    "remote.SSH.showLoginTerminal": true
+    "remote.SSH.showLoginTerminal": true,
+    "python.formatting.provider": "black"
 }
