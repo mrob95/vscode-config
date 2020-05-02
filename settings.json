@@ -1,17 +1,21 @@
 {
-    "window.zoomLevel": 3,
+
+    // Reduce gutter size
+    "editor.glyphMargin": false,
+    "editor.folding": false,
+    "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "editor.minimap.enabled": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.external.windowsExec": "C:/Program Files/Git/git-bash.exe",
+    // "terminal.external.windowsExec": "C:/Program Files/Git/git-bash.exe",
+    "terminal.external.windowsExec": "wt.exe",
     "editor.wordWrap": "on",
     "editor.emptySelectionClipboard": false,
     "window.menuBarVisibility": "default",
     "breadcrumbs.enabled": false,
     "editor.tabCompletion": "on",
     "editor.multiCursorModifier": "ctrlCmd",
-    "files.trimTrailingWhitespace": true,
 
     // The number of spaces a tab is equal to. This setting is overridden
     // based on the file contents when `editor.detectIndentation` is true.
@@ -80,5 +84,9 @@
     "window.title": "${rootName}${separator}${activeEditorMedium}",
     "C_Cpp.updateChannel": "Insiders",
     "remote.SSH.showLoginTerminal": true,
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "cmake.configureOnOpen": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.largeFileOptimizations": false,
+    "workbench.colorTheme": "Solarized Light"
 }

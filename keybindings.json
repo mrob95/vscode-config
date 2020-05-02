@@ -93,5 +93,9 @@
     {
         "key": "shift+alt+oem_1",
         "command": "findJump.activateWithSelection"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "editor.action.addSelectionToPreviousFindMatch"
     }
 ]
