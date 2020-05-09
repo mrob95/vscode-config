@@ -3,10 +3,14 @@
     // Reduce gutter size
     "editor.glyphMargin": false,
     "editor.folding": false,
-    "window.zoomLevel": 0,
+    // Remove scrollbar
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "window.zoomLevel": 1,
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
-    "editor.minimap.enabled": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     // "terminal.external.windowsExec": "C:/Program Files/Git/git-bash.exe",
     "terminal.external.windowsExec": "wt.exe",
@@ -88,5 +92,6 @@
     "cmake.configureOnOpen": false,
     "files.trimTrailingWhitespace": true,
     "editor.largeFileOptimizations": false,
-    "workbench.colorTheme": "Solarized Light"
+    "workbench.colorTheme": "Solarized Light",
+    "python.pythonPath": "C:\\Users\\Mike\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
 }
