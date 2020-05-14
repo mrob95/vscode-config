@@ -2,7 +2,8 @@
 
     // Reduce gutter size
     "editor.glyphMargin": false,
-    "editor.folding": false,
+    "editor.folding": true,
+    "editor.lineDecorationsWidth": 0,
     // Remove scrollbar
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
