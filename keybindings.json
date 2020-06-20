@@ -101,5 +101,9 @@
     {
         "key": "ctrl+alt+d",
         "command": "editor.action.addSelectionToPreviousFindMatch"
+    },
+    {
+        "key": "ctrl+k ctrl+g",
+        "command": "editor.action.goToSelectionAnchor"
     }
 ]

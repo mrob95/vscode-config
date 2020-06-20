@@ -5,10 +5,10 @@
     "editor.folding": true,
     "editor.lineDecorationsWidth": 0,
     // Remove scrollbar
-    "editor.scrollbar.vertical": "hidden",
-    "editor.scrollbar.verticalScrollbarSize": 0,
+    // "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 3,
     "editor.minimap.enabled": false,
-    "editor.overviewRulerBorder": false,
+    // "editor.overviewRulerBorder": false,
     "window.zoomLevel": 1,
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
@@ -38,6 +38,11 @@
     // Controls if quick suggestions should show up while typing
     "editor.quickSuggestions": true,
 
+    // Don't open a million windows on start-up
+    "window.restoreWindows": "one",
+    "window.reopenFolders": "one",
+    // Don't remember unsaved files
+    "files.hotExit": "off",
     // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
     "editor.acceptSuggestionOnEnter": "off",
     "editor.suggestOnTriggerCharacters": true,
@@ -93,6 +98,26 @@
     "cmake.configureOnOpen": false,
     "files.trimTrailingWhitespace": true,
     "editor.largeFileOptimizations": false,
-    "workbench.colorTheme": "Solarized Light",
-    "python.pythonPath": "C:\\Users\\Mike\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    "python.pythonPath": "C:\\Users\\Mike\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "workbench.colorTheme": "Gruvbox Dark (Medium)",
+    "tabnine.experimentalAutoImports": true,
+    "mssql.connections": [
+        {
+            "server": "DESKTOP-74I5GN5",
+            "database": "",
+            "authenticationType": "Integrated",
+            "profileName": "Local",
+            "password": ""
+        },
+        {
+            "server": "DESKTOP-74I5GN5",
+            "database": "TESTDB",
+            "authenticationType": "Integrated",
+            "profileName": "TESTDB",
+            "password": ""
+        }
+    ],
+    "remote.SSH.remotePlatform": {
+        "172.30.1.3": "linux"
+    }
 }
