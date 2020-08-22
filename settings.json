@@ -14,7 +14,7 @@
     "editor.scrollbar.horizontalScrollbarSize": 0,
     // Visible colour
     "workbench.colorCustomizations": {
-        "scrollbarSlider.background": "#cc241d"
+        "scrollbarSlider.background": "#f18581"
     },
     // How is this in any way useful?
     "editor.minimap.enabled": false,
@@ -108,7 +108,7 @@
     "python.formatting.provider": "black",
     "cmake.configureOnOpen": false,
     "files.trimTrailingWhitespace": true,
-    "editor.largeFileOptimizations": false,
+    "editor.largeFileOptimizations": true,
     "python.pythonPath": "C:\\Users\\Mike\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
     "workbench.colorTheme": "Gruvbox Dark (Medium)",
     "tabnine.experimentalAutoImports": true,
@@ -132,7 +132,9 @@
         "172.30.1.3": "linux",
         "ec2": "linux"
     },
-    "python.languageServer": "Pylance",
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.fontWeight": "400"
+    "editor.fontWeight": "400",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft"
 }
