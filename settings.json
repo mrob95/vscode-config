@@ -57,6 +57,7 @@
     // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
     "editor.acceptSuggestionOnEnter": "off",
     "editor.suggestOnTriggerCharacters": true,
+    "editor.hover.sticky": false,
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "newUntitledFile",
     // "customizeUI.stylesheet": {
@@ -136,5 +137,9 @@
     "editor.fontWeight": "400",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Microsoft"
+    "python.languageServer": "Pylance",
+    // "python.linting.mypyEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.showStartPage": false,
+    "explorer.confirmDelete": false
 }
