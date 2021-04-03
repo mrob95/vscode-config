@@ -14,8 +14,49 @@
     "editor.scrollbar.horizontalScrollbarSize": 0,
     // Visible colour
     "workbench.colorCustomizations": {
-        "scrollbarSlider.background": "#f18581"
+        "scrollbarSlider.background": "#f18581",
+        "[Gruvbox Dark (Medium)]": {
+            // Doesn't work...
+            // "editor.selectionBorder": "#83a598",
+
+            // Defaults are way too dark,
+            // and it's very hard to see what is selected
+            // gruvbox colours:
+            // https://github.com/morhetz/gruvbox
+            "editor.selectionBackground": "#45858879",
+            "editor.selectionHighlightBackground": "#d65e0e94",
+            "editor.findMatchBorder": "#83a598",
+            "editorCursor.foreground": "#ffffff",
+            //
+            "editorBracketMatch.background": "#fb4934",
+            //
+            "editorLineNumber.activeForeground": "#fabd2f",
+            "editorLineNumber.foreground": "#bdae93",
+            //
+            "editorGroupHeader.border": "#b8bb26",
+            "tab.border": "#b8bb26",
+            "tab.activeBorder": "#b8bb26",
+            "tab.activeBorderTop": "#b8bb26",
+            "tab.activeForeground": "#fbf1c7",
+            "tab.inactiveForeground": "#ebdbb2",
+        }
     },
+    "editor.tokenColorCustomizations": {
+        "[Gruvbox Dark (Medium)]": {
+            "comments": "#bdae93",
+            "strings": "#8ec07c",
+            "textMateRules": [
+                {
+                    "scope": "support.function.builtin.python",
+                    "settings": {
+                        "foreground": "#b8bb26"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.cursorBlinking": "solid",
+    "editor.cursorWidth": 3,
     // How is this in any way useful?
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
