@@ -105,5 +105,17 @@
     {
         "key": "ctrl+k ctrl+g",
         "command": "editor.action.goToSelectionAnchor"
+    },
+    {
+        "key": "ctrl+k ctrl+r",
+        "command": "-workbench.action.keybindingsReference"
+    },
+    {
+        "key": "ctrl+shift+g oem_comma",
+        "command": "git.timeline.openDiff"
+    },
+    {
+        "key": "ctrl+shift+g oem_comma",
+        "command": "git.openChange"
     }
 ]
