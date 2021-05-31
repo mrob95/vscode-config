@@ -117,5 +117,21 @@
     {
         "key": "ctrl+shift+g oem_comma",
         "command": "git.openChange"
+    },
+    {
+        "key": "ctrl+k ctrl+pagedown",
+        "command": "workbench.action.openNextRecentlyUsedEditor"
+    },
+    {
+        "key": "ctrl+k ctrl+pagedown",
+        "command": "-workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+pageup",
+        "command": "workbench.action.openPreviousRecentlyUsedEditor"
+    },
+    {
+        "key": "ctrl+k ctrl+pageup",
+        "command": "-workbench.action.previousEditorInGroup"
     }
 ]
