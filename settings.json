@@ -160,7 +160,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.largeFileOptimizations": true,
     "python.pythonPath": "C:\\Users\\Mike\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
-    "workbench.colorTheme": "Gruvbox Dark (Hard)",
+    "workbench.colorTheme": "Solarized Light",
     "tabnine.experimentalAutoImports": true,
     "mssql.connections": [
         {
@@ -196,12 +196,9 @@
     "jupyter.sendSelectionToInteractiveWindow": false,
     "gitlens.views.lineHistory.enabled": true,
     "editor.accessibilitySupport": "off",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "C_Cpp.formatting": "vcFormat",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
@@ -213,4 +210,9 @@
         "C:/Program Files/talon/Lib/site-packages"
     ],
     "workbench.editor.untitled.hint": "hidden",
+    "docker.showStartPage": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
 }

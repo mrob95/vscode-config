@@ -1,9 +1,9 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "ctrl+n", // "cmd+n" on mac
-        "command": "extension.advancedNewFile"
-    },
+    // {
+    //     "key": "ctrl+n", // "cmd+n" on mac
+    //     "command": "extension.advancedNewFile"
+    // },
     {
         "key": "shift+down",
         "command": "expandLineSelection",
