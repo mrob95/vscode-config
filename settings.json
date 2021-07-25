@@ -1,8 +1,8 @@
 {
     // Reduce gutter size
     "editor.glyphMargin": false,
-    "editor.folding": true,
-    "editor.lineDecorationsWidth": 0,
+    "editor.folding": false,
+    "editor.lineDecorationsWidth": 7,
     // Scrollbar
     "editor.wordWrap": "on",
     // Never show horizontal
@@ -20,30 +20,16 @@
             "tab.border": "#dc322f",
             "tab.activeBorderTop": "#dc322f",
         },
-        "[Gruvbox Dark (Hard)]": {
-            // Doesn't work...
-            // "editor.selectionBorder": "#83a598",
-            // Defaults are way too dark,
-            // and it's very hard to see what is selected
-            // gruvbox colours:
-            // https://github.com/morhetz/gruvbox
-            "editor.selectionBackground": "#45858879",
+        "[★★★★★ GRUVBOX ★★★★]": {
+            // https://github.com/dobbbri/gruvbox-5-stars/blob/master/themes/gruvbox-onix.json
             "editor.selectionHighlightBackground": "#d65e0e94",
+            "editorCursor.foreground": "#ebdbb2",
             "editor.findMatchBorder": "#83a598",
-            "editorCursor.foreground": "#ffffff",
-            //
-            "editorBracketMatch.background": "#d65e0e94",
-            //
-            "editorLineNumber.activeForeground": "#fabd2f",
-            // "editorLineNumber.foreground": "#bdae93",
-            //
-            "editorGroupHeader.border": "#bdae93",
-            "tab.border": "#bdae93",
-            "tab.activeBorder": "#bdae93",
-            "tab.activeBorderTop": "#bdae93",
-            "tab.activeForeground": "#fbf1c7",
-            "tab.inactiveForeground": "#ebdbb2",
-        }
+            "editor.findMatchHighlightBackground": "#d65e0e94",
+            "editor.selectionBackground": "#45858879",
+            "tab.unfocusedActiveForeground": "#83a598",
+            "tab.unfocusedInactiveForeground": "#cccccc",
+        },
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -59,26 +45,12 @@
                 }
             }
         ],
-        "[Gruvbox Dark (Hard)]": {
-            "comments": "#bdae93",
-            "strings": "#8ec07c",
-            "textMateRules": [
-                {
-                    "scope": "support.function.builtin.python",
-                    "settings": {
-                        "foreground": "#b8bb26"
-                    }
-                }
-            ]
-        }
     },
     "editor.cursorBlinking": "solid",
     "editor.cursorWidth": 3,
     // How is this in any way useful?
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
-    // "editor.overviewRulerBorder": false,
-    "window.zoomLevel": 1,
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
@@ -160,7 +132,6 @@
     "files.trimTrailingWhitespace": true,
     "editor.largeFileOptimizations": true,
     "python.pythonPath": "C:\\Users\\Mike\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
-    "workbench.colorTheme": "Solarized Light",
     "tabnine.experimentalAutoImports": true,
     "mssql.connections": [
         {
@@ -215,4 +186,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★",
 }
