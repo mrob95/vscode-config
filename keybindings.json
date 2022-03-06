@@ -133,5 +133,15 @@
     {
         "key": "ctrl+k ctrl+pageup",
         "command": "-workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "alt+oem_5",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+oem_5",
+        "command": "-editor.action.insertSnippet",
+        "when": "editorTextFocus && resourceLangId == 'racket'"
     }
 ]

@@ -51,10 +51,7 @@
     // How is this in any way useful?
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
-    "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    // "terminal.external.windowsExec": "C:/Program Files/Git/git-bash.exe",
     // Windows Terminal
     "terminal.external.windowsExec": "wt.exe",
     //
@@ -82,7 +79,6 @@
     "editor.acceptSuggestionOnEnter": "off",
     "editor.suggestOnTriggerCharacters": true,
     "editor.hover.sticky": false,
-    "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "newUntitledFile",
     "gitHistory.showEditorTitleMenuBarIcons": false,
     "gitlens.hovers.enabled": false,
@@ -188,4 +184,13 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.enablePreview": false,
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+    },
+    "editor.cursorStyle": "block",
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
 }
