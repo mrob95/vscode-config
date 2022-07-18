@@ -1,10 +1,13 @@
 {
-    // Reduce gutter size
+    "editor.bracketPairColorization.enabled": false,
+   // Reduce gutter size
     "editor.glyphMargin": false,
     "editor.folding": false,
     "editor.lineDecorationsWidth": 7,
     // Scrollbar
     "editor.wordWrap": "on",
+    // Go back/forward does not switch files
+    "workbench.editor.navigationScope": "editor",
     // Never show horizontal
     "editor.scrollbar.horizontal": "hidden",
     // Always show vertical
@@ -32,6 +35,9 @@
         },
     },
     "editor.tokenColorCustomizations": {
+        "[★★★★★ GRUVBOX ★★★★]": {
+            "comments": "#bdae93",
+        },
         "textMateRules": [
             {
                 "scope": [
@@ -69,7 +75,11 @@
     // the values you've explicitly set, above.
     "editor.detectIndentation": true,
     // Controls if quick suggestions should show up while typing
-    "editor.quickSuggestions": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
     // Don't open a million windows on start-up
     "window.restoreWindows": "one",
     "window.reopenFolders": "one",
@@ -186,11 +196,16 @@
     "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "workbench.editor.enablePreview": false,
     "[sql]": {
         "editor.defaultFormatter": "mtxr.sqltools"
     },
     "editor.cursorStyle": "block",
     "redhat.telemetry.enabled": true,
     "workbench.iconTheme": "material-icon-theme",
+    "go.toolsManagement.autoUpdate": true,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
+    "workbench.editor.enablePreview": false,
 }
