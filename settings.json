@@ -57,8 +57,8 @@
     // How is this in any way useful?
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
-    "workbench.statusBar.visible": true,
     // Windows Terminal
+    // See https://stackoverflow.com/questions/43302853/using-msys-shell-in-visual-studio-code for msys config
     "terminal.external.windowsExec": "wt.exe",
     //
     "editor.emptySelectionClipboard": false,
