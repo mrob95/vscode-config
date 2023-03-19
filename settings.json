@@ -169,8 +169,6 @@
     "python.analysis.typeCheckingMode": "basic",
     "python.showStartPage": false,
     "explorer.confirmDelete": false,
-    // "editor.accessibilitySupport": "on",
-    "jupyter.sendSelectionToInteractiveWindow": false,
     "gitlens.views.lineHistory.enabled": true,
     "editor.accessibilitySupport": "off",
     "workbench.editorAssociations": {
@@ -208,4 +206,10 @@
         "editor.formatOnSave": true
     },
     "workbench.editor.enablePreview": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "debug.console.closeOnEnd": true,
+    "jupyter.interactiveWindow.textEditor.executeSelection": false,
+    "editor.inlineSuggest.enabled": true,
 }

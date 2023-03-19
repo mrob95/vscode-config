@@ -143,5 +143,20 @@
         "key": "alt+oem_5",
         "command": "-editor.action.insertSnippet",
         "when": "editorTextFocus && resourceLangId == 'racket'"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-rust-analyzer.matchingBrace",
+        "when": "editorTextFocus && editorLangId == 'rust'"
+    },
+    {
+        "key": "f13",
+        "command": "github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated"
     }
 ]
