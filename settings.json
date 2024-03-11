@@ -1,5 +1,18 @@
 {
     "editor.bracketPairColorization.enabled": false,
+      "github.copilot.advanced": {
+    "indentationMode": {
+      "python": true,
+      "javascript": true,
+      "javascriptreact": true,
+      "jsx": true,
+      "typescript": true,
+      "typescriptreact": true,
+      "go": true,
+      "ruby": true,
+      "*": true
+    }
+  },
    // Reduce gutter size
     "editor.glyphMargin": false,
     "editor.folding": false,
@@ -184,7 +197,6 @@
     "python.analysis.extraPaths": [
         "C:/Program Files/talon/Lib/site-packages"
     ],
-    "workbench.editor.untitled.hint": "hidden",
     "docker.showStartPage": false,
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -207,9 +219,16 @@
     },
     "workbench.editor.enablePreview": false,
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "debug.console.closeOnEnd": true,
     "jupyter.interactiveWindow.textEditor.executeSelection": false,
     "editor.inlineSuggest.enabled": true,
+    "workbench.editor.empty.hint": "hidden",
+    "go.lintTool": "golangci-lint",
+    "window.zoomLevel": -1,
+    "remote.autoForwardPortsSource": "hybrid",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false,
 }
