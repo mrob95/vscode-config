@@ -141,33 +141,28 @@
             "stash": true
         }
     },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+    },
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "standard",
     "python.analysis.memory.keepLibraryAst": true,
     "python.analysis.memory.keepLibraryLocalVariables": true,
     "window.title": "${dirty}${rootName}${separator}${activeEditorLong}",
     "C_Cpp.updateChannel": "Insiders",
     "remote.SSH.showLoginTerminal": true,
-    "python.formatting.provider": "black",
     "cmake.configureOnOpen": false,
     "files.trimTrailingWhitespace": true,
     "editor.largeFileOptimizations": true,
-    "python.pythonPath": "C:\\Users\\Mike\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
     "tabnine.experimentalAutoImports": true,
-    "mssql.connections": [
-        {
-            "server": "DESKTOP-74I5GN5",
-            "database": "",
-            "authenticationType": "Integrated",
-            "profileName": "Local",
-            "password": ""
-        },
-        {
-            "server": "DESKTOP-74I5GN5",
-            "database": "TESTDB",
-            "authenticationType": "Integrated",
-            "profileName": "TESTDB",
-            "password": ""
-        }
-    ],
     "remote.SSH.remotePlatform": {
         "172.30.1.3": "linux",
         "ec2": "linux",
@@ -177,9 +172,6 @@
     "editor.fontWeight": "400",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Pylance",
-    // "python.linting.mypyEnabled": true,
-    "python.analysis.typeCheckingMode": "basic",
     "python.showStartPage": false,
     "explorer.confirmDelete": false,
     "gitlens.views.lineHistory.enabled": true,
@@ -193,10 +185,6 @@
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
     "editor.quickSuggestionsDelay": 0,
     "window.newWindowDimensions": "inherit",
-    "python.analysis.stubPath": "C:/Program Files/talon/Lib/site-packages",
-    "python.analysis.extraPaths": [
-        "C:/Program Files/talon/Lib/site-packages"
-    ],
     "docker.showStartPage": false,
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -214,14 +202,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "go.toolsManagement.autoUpdate": true,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
-    "[rust]": {
-        "editor.formatOnSave": true
-    },
     "workbench.editor.enablePreview": false,
-    "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
     "debug.console.closeOnEnd": true,
     "jupyter.interactiveWindow.textEditor.executeSelection": false,
     "editor.inlineSuggest.enabled": true,
@@ -231,4 +212,8 @@
     "remote.autoForwardPortsSource": "hybrid",
     "workbench.tree.enableStickyScroll": false,
     "editor.stickyScroll.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.autoImportCompletions": true,
 }
